@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="img/hardiwan.ico" />
+
+    <title>Kelas X 7</title>
+  </head>
+  <body id="home">
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center pb-2">
+      <img src="img/hardiwan.webp" alt="Hardiwan" width="150" class="rounded-circle img-thumbnail" data-aos="fade-in" />
+      <h3 class="display-6">Hardiwan, S.Pd</h3>
+      <h2>Guru Fisika</h2>
+      <h3>MAN PANGKEP</h3>
+    </section>
+    <!-- Akhir Jumbotron  -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container py-2">
+        <div class="row justify-content-center">
+          <div class="card text-bg-primary">
+            <div class="row text-center mb-1">
+              <div class="col">
+                <h3 class="pt-2">Data Peserta Didik</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                  <strong>Terima Kasih!</strong> Data Ananda sudah terekam!!
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <p>Silahkan lengkapi data berikut ini!</p>
+                <form name="contact-form">
+                  <div class="mb-3">
+                    <label for="Name" class="form-label">Nama Lengkap</label><span> </span><i class="bi bi-pencil"></i><span> </span><strong><label style="color: rgb(245, 10, 10)">*</label></strong>
+                    <select class="form-select" aria-label="Default select example" name="nama" required autocomplete="off" autofocus>
+                      <option selected></option>
+                      <option value="AHMAD FAJAR">AHMAD FAJAR</option>
+                      <option value="AIRIN PRATIWI">AIRIN PRATIWI</option>
+                      <option value="AKBAR">AKBAR</option>
+                      <option value="AMAL MA'RUF">AMAL MA'RUF</option>
+                      <option value="ANDHINI PRISYLIAWATI">ANDHINI PRISYLIAWATI</option>
+                      <option value="ANDI BESSE YASMIN">ANDI BESSE YASMIN</option>
+                      <option value="ANDI NUR AZIZAH HAFIZAH">ANDI NUR AZIZAH HAFIZAH</option>
+                      <option value="ARAFAH">ARAFAH</option>
+                      <option value="ARFAN GHIFARY">ARFAN GHIFARY</option>
+                      <option value="ARNUM SARTICA">ARNUM SARTICA</option>
+                      <option value="CINTA AMEL">CINTA AMEL</option>
+                      <option value="DANIL">DANIL</option>
+                      <option value="DEVIKA">DEVIKA</option>
+                      <option value="MUH ARDIYANSA">MUH ARDIYANSA</option>
+                      <option value="MUH. FAHRI">MUH. FAHRI</option>
+                      <option value="MUH. HUSRA">MUH. HUSRA</option>
+                      <option value="MUH. KABIR SYAM">MUH. KABIR SYAM</option>
+                      <option value="MUH.MUTAWAQIL ASRAF">MUH.MUTAWAQIL ASRAF</option>
+                      <option value="MUHAMMAD IRFAN">MUHAMMAD IRFAN</option>
+                      <option value="MUHAMMAD KHAIRIL.R">MUHAMMAD KHAIRIL.R</option>
+                      <option value="MULTAZAM DZUNNURAIN">MULTAZAM DZUNNURAIN</option>
+                      <option value="NANDA">NANDA</option>
+                      <option value="NAYLA MAQFIRAH">NAYLA MAQFIRAH</option>
+                      <option value="NUR'AENI">NUR'AENI</option>
+                      <option value="NURJAYANTI">NURJAYANTI</option>
+                      <option value="RAHMAWATI">RAHMAWATI</option>
+                      <option value="RISDAMAYANTI">RISDAMAYANTI</option>
+                      <option value="RISKAWATI">RISKAWATI</option>
+                      <option value="SALMA PUTRI">SALMA PUTRI</option>
+                      <option value="SALSA">SALSA</option>
+                      <option value="SALSA BILA">SALSA BILA</option>
+                      <option value="SALWALIAH">SALWALIAH</option>
+                      <option value="SITI FATIMA">SITI FATIMA</option>
+                      <option value="SITTI PUSPA AYU RAMADHANI">SITTI PUSPA AYU RAMADHANI</option>
+                      <option value="SYAHRIL RAMADHANI">SYAHRIL RAMADHANI</option>
+                      <option value="TASYA">TASYA</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label><span> </span><i class="bi bi-envelope"></i><span> </span><strong><label style="color: rgb(245, 10, 10)"> *</label></strong>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="example@email.com" name="email" required autocomplete="off" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="nohp" class="form-label">Nomor WhatsApp</label><span> </span><i class="bi bi-whatsapp"></i><span> </span><strong><label style="color: rgb(245, 10, 10)"> *</label></strong>
+                    <input type="number" class="form-control" id="nohp" aria-describedby="nohp" placeholder="085255XXXXXX" name="nohp" required autocomplete="off" />
+                  </div>
+                  <div class="mb-3">
+                    <strong><label style="color: rgb(245, 10, 10)">*</label></strong
+                    ><label>Wajib Diisi!</label>
+                  </div>
+                  <div class="container pb-2">
+                    <div class="row">
+                      <div class="col d-flex justify-content-center">
+                        <button type="submit" class="btn btn-light fw-bold btn-kirim">Kirim</button>
+                        <button class="btn btn-warning btn-loading d-none" type="button" disabled>
+                          <span class="spinner-border fw-bold spinner-border-sm" role="status" aria-hidden="true"></span>
+                          Loading...
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,160L48,165.3C96,171,192,181,288,160C384,139,480,85,576,106.7C672,128,768,224,864,245.3C960,267,1056,213,1152,186.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg> -->
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-1">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/hardiwan10/" class="text-white fw-bold">Hardiwan</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyj8dk7Dj96shn3RLWlcIC0Bda0C-TkH5VYDQh70bBxZZxLFTR2FBRTDeS4dqKhvKpL/exec";
+      const form = document.forms["contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
